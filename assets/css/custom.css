@@ -197,6 +197,10 @@ section {
     width: 60%;
 }
 
+.bar.javascript::before {
+    width: 30%;
+}
+
 .bar.sql::before {
     width: 37%;
 }
@@ -219,6 +223,14 @@ section {
 
 .bar.vuejs::before {
     width: 50%;
+}
+
+.bar.nodejs::before {
+    width: 30%;
+}
+
+.bar.express::before {
+    width: 30%;
 }
 
 #skills {
