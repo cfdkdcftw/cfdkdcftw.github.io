@@ -189,6 +189,10 @@ section {
     background-color: #E69597;
 }
 
+.bar.design::before {
+    background-color: #6eb8b4;
+}
+
 .bar.java::before {
     width: 73%;
 }
@@ -233,8 +237,13 @@ section {
     width: 30%;
 }
 
+.bar.figma::before {
+    width: 74%;
+}
+
 #skills {
-    height: 100vh;
+    /* height: 100vh; */
+    padding-bottom: 80px;
 }
 
 /* portfolio */
@@ -242,6 +251,10 @@ section {
 #portfolio {
     /* border: 1px solid red; */
     padding: 50px 40px 80px 40px;
+}
+
+#uiportfolio {
+    padding: 90px 70px 80px 70px;
 }
 
 #portfolio h2 {
@@ -258,6 +271,10 @@ section {
     padding: 20px 50px;
 }
 
+#uiportfolio .portfolio-card {
+    padding: 20px 30px;
+}
+
 .portfolio-photo-holder {
     /* border: 1px blue dotted; */
     margin: 0;
@@ -265,6 +282,8 @@ section {
     color: white;
     padding: 20px;
 }
+
+
 
 .bg-colour-1 {
     background-color: #E2856E;
@@ -339,8 +358,8 @@ section {
 }
 
 .extras-links-comclub {
-    display: block;
-    margin: 20px;
+    display: inline-flex;
+    margin-top: 20px;
 }
 
 .extras-links-unicon {
