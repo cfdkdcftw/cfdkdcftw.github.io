@@ -271,6 +271,11 @@ section {
     padding: 20px 50px;
 }
 
+.portfolio-photo-holder:hover {
+    opacity: 0.4;
+    box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
+}
+
 #uiportfolio .portfolio-card {
     padding: 20px 30px;
 }
